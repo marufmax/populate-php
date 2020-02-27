@@ -13,7 +13,7 @@ $port = getenv('DB_PORT');
 
 
 try {
-    $pdo = new PDO("pgsql:host='localhost';port=5433;dbname='eagle_local';user='postgres';password='Pass123!'");
+    $pdo = new PDO("pgsql:host='localhost';port=5433;dbname='database_name';user='postgres';password='Pass123!'");
 
 } catch (Exception $exception) {
     echo "-- DATABASE CONNECTION ERROR --";
